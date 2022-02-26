@@ -28,7 +28,9 @@ export const Container = styled.div`
     }
 
     &.highlight-background {
-      background: #33CC95;
+      /* background-image: linear-gradient(180deg, #FFAF7B, #3A1C71); */
+      /* background: #33CC95; */
+      background-image: linear-gradient(to bottom right, #ad5389 , #3c1053);
       color: #fff;
     }
   }

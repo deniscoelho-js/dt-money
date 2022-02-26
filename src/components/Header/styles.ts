@@ -1,7 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  background: var(--blue);
+  /* background: var(--blue); */
+  background-image: linear-gradient(to bottom right, #ad5389 , #3c1053);
+  /* background-image: linear-gradient(180deg, #ad5389 , #3c1053); */
+  /* background-image: linear-gradient(to right, #ad5389 , #3c1053); */
 `
 
 export const Content = styled.div`
@@ -15,7 +18,10 @@ export const Content = styled.div`
   button {
     font-size: 1rem;
     color: #fff;
-    background: var(--blue-light);
+    /* background: var(--blue-light); */
+    /* background: #ad5389; */
+    /* background-image: linear-gradient(to right, #ad5389 , #3c1053); */
+    background-image: linear-gradient(to bottom right, #3c1053, #ad5389);
     border: 0;
     padding: 0 2rem;
     border-radius: 0.25rem;
