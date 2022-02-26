@@ -21,8 +21,6 @@ export function  NewTransactionModal({isOpen, onRequestClose}: NewTransactionMod
 
   const handleCreateNewTransaction = (event: FormEvent) => {
     event.preventDefault()
-
-    
   }
 
   return (
